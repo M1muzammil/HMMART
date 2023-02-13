@@ -1,0 +1,60 @@
+.first{
+    background-color: pink;
+
+    position: sticky;
+    top: 5;
+    align-items: center;
+}
+
+
+.fixed{
+position: absolute;
+top: 0;
+float: inline-start;
+align-self: center;
+
+
+}
+.second{
+    display: flex;
+    justify-content: end;
+    font-size: 1.5em;
+    margin-left: 10px;
+}
+.search{
+    display: flex;
+justify-content: center;
+background-color: pink;
+
+}
+.box{align-items: center;
+    
+    color: aliceblue;
+    width: 100px;
+    height: 2em;
+    margin: 6px;
+    font-weight: normal;
+
+        list-style-type: none;
+        border: 1px solid rgb(4, 5, 4); 
+        background-color: rgb(4, 4, 4) 
+
+
+    
+}
+
+.foot{
+    height: 4em;
+    background-color: yellow;
+}
+
+
+@media (max-width:400px) {
+    h1>img{ display: none;}
+    .second{
+        font-size: 1em;
+    }
+    .second>div>img{
+        width: 10px;
+    }
+}
